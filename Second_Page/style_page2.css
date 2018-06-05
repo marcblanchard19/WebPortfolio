@@ -1,0 +1,41 @@
+#container{
+  width: 80%;
+  margin: 0 auto;
+}
+/*-----body background----*/
+body{
+  background: #fc00ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #00dbde, #fc00ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #00dbde, #fc00ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  padding: 0;
+}
+
+
+/*----- header-----*/
+h1{
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-family: 'Signika', sans-serif;
+  font-size: 30px;
+}
+p{
+  color: white;
+  font-family: 'Signika', sans-serif;
+  font-size: 14px;
+}
+
+/*----button----*/
+button{
+  background: #00dbde;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: transparent;
+  border-radius: 5px;
+  margin-left: 42%;
+  text-align: center;
+}
